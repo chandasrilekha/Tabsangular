@@ -1,0 +1,117 @@
+<div class="row">
+  <div class="col-8">
+    <mat-card>
+      <mat-tab-group>
+        <mat-card-content> <mat-tab label="First"> <mat-list>
+          <mat-list-item>Pepper</mat-list-item>
+          <mat-list-item>Salt</mat-list-item>
+          <mat-list-item>Paprika</mat-list-item>
+         </mat-list> </mat-tab>
+    
+    
+          <mat-tab label="Second"> <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Favorite food</mat-label>
+        <input matInput placeholder="Ex. Pizza" value="Pizza">
+      </mat-form-field>
+    <br>
+      <mat-form-field class="example-full-width">
+        <mat-label>Leave a comment</mat-label>
+        <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+      </mat-form-field>
+    </form></mat-tab>
+          <mat-tab label="Third"> <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </mat-tab></mat-card-content>
+      </mat-tab-group>
+      
+    </mat-card>
+  </div>
+  <div class="col-4"><mat-spinner></mat-spinner>
+
+    <mat-radio-group aria-label="Select an option">
+      <mat-radio-button value="1">Option 1</mat-radio-button>
+      <mat-radio-button value="2">Option 2</mat-radio-button>
+    </mat-radio-group>
+    
+    <mat-slide-toggle>Slide me!</mat-slide-toggle>
+    
+    <mat-slider>
+      <input matSliderThumb>
+    </mat-slider>
+    
+    
+    <mat-form-field>
+      <mat-label>Message</mat-label>
+      <input matInput value="Disco party!" #message>
+    </mat-form-field>
+    
+    <mat-form-field>
+      <mat-label>Action</mat-label>
+      <input matInput value="Dance" #action>
+    </mat-form-field>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10"><mat-tab-group>
+      <mat-tab label="First"> Content 1 </mat-tab>
+      <mat-tab label="Second"> Content 2 </mat-tab>
+      <mat-tab label="Third"> Content 3 </mat-tab>
+    </mat-tab-group></div>
+    <div class="col-sm-2">  <mat-slide-toggle>Slide me!</mat-slide-toggle></div>
+  </div>
+
+<!-- <button mat-stroked-button (click)="openSnackBar(message.value, action.value)">Show snack-bar</button> -->
+
+<mat-grid-list cols="2">
+  <mat-grid-tile> <mat-card>
+    <mat-tab-group>
+      <mat-card-content> <mat-tab label="First"> <mat-list>
+        <mat-list-item>Pepper</mat-list-item>
+        <mat-list-item>Salt</mat-list-item>
+        <mat-list-item>Paprika</mat-list-item>
+       </mat-list> </mat-tab>
+  
+  
+        <mat-tab label="Second"> <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Favorite food</mat-label>
+      <input matInput placeholder="Ex. Pizza" value="Pizza">
+    </mat-form-field>
+  <br>
+    <mat-form-field class="example-full-width">
+      <mat-label>Leave a comment</mat-label>
+      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+  </form></mat-tab>
+        <mat-tab label="Third"> <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+        </mat-tab></mat-card-content>
+    </mat-tab-group>
+    
+  </mat-card></mat-grid-tile>
+  <mat-grid-tile>2</mat-grid-tile>
+ 
+</mat-grid-list>
+
+
+
+<app-new></app-new>
+
+
+
+
+
+
+
+
